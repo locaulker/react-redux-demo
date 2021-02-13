@@ -5,7 +5,7 @@ const initialState = {
   numOfCakes: 10,
 }
 
-// reducer
+// reducer - takes two parameters
 const cakeReducer = (state = initialState, action) => {
   switch (action.type) {
     case BUY_CAKE:
